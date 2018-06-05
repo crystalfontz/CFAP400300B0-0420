@@ -1,2 +1,4 @@
 # CFAP400300B0-0420
-ePaper, Graphic Display, 400x300 pixels, 1-bit Black/White, 3/4-wire SPI Interface, Arduino/Seeeduino sample code
+
+Sample code for CFAP400300B0-0420. This product can be found here:
+https://www.crystalfontz.com/product/cfap400300B00420
