@@ -251,6 +251,10 @@ void setRegisterLUT()
 //================================================================================
 void setPartialRegisterLUT()
 {
+  //Please note, this is demonstration code on how to use the Partial Updating on the controller but this display itself
+  //  does not support partial updating. Using this code may cause ghosting issues over time.
+
+
   //set LUTs
   //The following block allows the LUTs to be changed.
   //In order for these LUTs to take effect, command 0x00 must have bit 5 set to "1"
@@ -301,6 +305,10 @@ void setOTPLUT()
 //================================================================================
 void partialUpdateSolid(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint8_t color)
 {
+  //Please note, this is demonstration code on how to use the Partial Updating on the controller but this display itself
+  //  does not support partial updating. Using this code may cause ghosting issues over time.
+
+
   //turn on partial update mode
   writeCMD(0x91);
 
@@ -628,6 +636,10 @@ void loop()
 #endif
 
 #if partialUpdate
+  //Please note, this is demonstration code on how to use the Partial Updating on the controller but this display itself
+  //  does not support partial updating. Using this code may cause ghosting issues over time.
+
+
   powerON();
 
   partialUpdateCharacters(Mono_Letter_A);
